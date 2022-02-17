@@ -1,6 +1,6 @@
 // Imports
 const express = require('express')
-const expressLayouts = require('express-ejs-layouts')
+// const expressLayouts = require('express-ejs-layouts')
 
 const app = express()
 const port = process.env.PORT || 5000;
@@ -11,9 +11,9 @@ app.use(express.static('public'))
 // app.use('/js', express.static(__dirname + 'public/js'))
 // app.use('/img', express.static(__dirname + 'public/img'))
 
-// Set Templating Engine
-app.use(expressLayouts)
-app.set('layout', './layouts/full-width')
+// // Set Templating Engine
+// app.use(expressLayouts)
+// app.set('layout', './layouts/full-width')
 app.set('view engine', 'ejs')
 
 
