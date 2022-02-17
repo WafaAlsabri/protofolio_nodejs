@@ -1,21 +1,24 @@
 {
-  "name": "express-validator-tut",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app",
-    "dev": "nodemon app"
+  "dependencies": {
+    "express": "^4.17.3"
   },
+  "name": "wafa-portofolio",
+  "version": "1.0.0",
+  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WafaAlsabri/protofolio_nodejs.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "ejs": "^3.1.3",
-    "express": "^4.17.1",
-    "express-ejs-layouts": "^2.5.0"
+  "bugs": {
+    "url": "https://github.com/WafaAlsabri/protofolio_nodejs/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.4"
-  }
+  "homepage": "https://github.com/WafaAlsabri/protofolio_nodejs#readme",
+  "description": ""
 }
